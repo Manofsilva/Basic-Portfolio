@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+}
+/* is there a margin: auto; ?? */
+header {
+    margin: 0px;
+    padding: 0px;
+    width: 960px;
+    background-color: white;
+}
+
+/* added the white, maybe not necessary? */
+.container {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+/* floated left */
+#nametag {
+    background-color: #4aaaa5;
+    float: left;
+
+}
+
+main {
+    width: 960px;
+    margin: auto;
+}
+
+section {
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
