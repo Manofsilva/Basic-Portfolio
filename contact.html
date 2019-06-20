@@ -3,22 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Cesar's Portfolio</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
 </head>
 <body>
     <header>
         <div class="container">
-            
-            <!-- not sure if there should be another div tag in the container div aside from nametag -->
-            <div id="nametag">
+            <div class="containerleft">
+                    
+                <!-- not sure if there should be another div tag in the container div aside from nametag -->
+                    <div id="nametag">
+                        <h1>Cesar Silva</h1>
+                    </div>
+        
+                </div>
+                
+                <div class="containerright">
+                    <!-- make sure to have <a> link provided for the links in the CSS -->
+                    <div class="links">
+                        <ul>
+                            <li id="about"><a href="#about">About</a></li>
+                            <li id="portfolio"><a href="#portfolio">Portfolio</a></li>
+                            <li id="content"><a href="#content">Content</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>    
+        </header>
+        <main id="main-bio">
 
-            </div>
+                <section class="contactcenter">
+                    
+                    <h2>Contact</h2>
+                            
+                        <div class="maincontact">
+                            
+                             Name:<br>
+                            <Input  type=”text” name=”name” value="John Smith" size="130">
+                            <br>
+                            Email: <br>
+                            <Input  type=”text” name=”email” value="Example@gmail.com" size="130">
+                            <br>
+                            Message: <br>
+                            <textarea rows="8" cols="122"></textarea>  
+                            <br><br>      
+                            <input  type="submit">
+                            <br><br>
+                        </div>
+                </section>
+        
+            </main>
 
-            <!-- make sure to have <a> link provided for the links in the CSS -->
-            <div class="container links">
-
-            </div>
-        </div>
-    </header>
-    
+            <footer id="sitefooter">
+                    <h6>
+                        Copyright
+                    <h6>
+            </footer>
 </body>
 </html>
