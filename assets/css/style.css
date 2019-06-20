@@ -1,8 +1,12 @@
+/* added display, flex-direction and min-height */
 body{
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 /* is there a margin: auto; ?? */
 header {
@@ -74,15 +78,22 @@ li {
     padding: 0px 0px 0px 10px;
 }
 
+/* added flex */
 .main-bio {
     clear: both;
     margin: auto;
+    flex: 1;
+}
+
+#bio-image {
+    padding: 0px 20px;
+    float: left;
 }
 
 .center {
     margin: auto;
     width: 960px;
-    height: 500px;
+    height: 620px;
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
@@ -99,4 +110,15 @@ h2 {
 
 p {
     margin: 20px 10px;
+}
+
+#sitefooter {
+    border-top: 8px solid #4aaaa5;
+    margin-top: 100px;
+    background: #666666;
+}
+
+h6 {
+    text-align: center
+
 }
