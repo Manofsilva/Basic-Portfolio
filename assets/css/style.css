@@ -90,7 +90,7 @@ li {
     float: left;
 }
 
-.center {
+.aboutcenter {
     margin: auto;
     width: 960px;
     height: 620px;
@@ -99,6 +99,15 @@ li {
     border-style: solid;
 
 } 
+
+.contactcenter {
+    margin: auto;
+    width: 960px;
+    height: 400px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    border-style: solid;
+}
 
 h2 {
     color: #4aaaa5;
@@ -120,5 +129,8 @@ p {
 
 h6 {
     text-align: center
+}
 
+.maincontact {
+    margin: 20px 20px;
 }
