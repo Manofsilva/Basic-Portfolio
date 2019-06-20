@@ -22,14 +22,16 @@ header {
 /* added the white, maybe not necessary? or auto? */
 .containerleft {
     width: 200px;
+    height: 100px;
     padding: 0px;
-    background-color: #ffffff;
+    background-color: #4aaaa5;
     float: left;
 }
 
 .containerright {
-    width: 200px;
-    padding: 0px;
+    width: 250px;
+    height: 50px;
+    padding: 20px 0px 20px 0px;
     background-color: #ffffff;
     float: right;
 }
@@ -37,6 +39,7 @@ header {
 /* floated left */
 #nametag {
     width: 200px;
+    padding-top: 10px;
     background-color: #4aaaa5;
     color: white;
     text-align: center;
@@ -47,6 +50,28 @@ header {
     background-color: white;
     color: grey;
     margin-top: 0px;
+}
+
+ul {
+    padding: 8px;
+    float: right;
+}
+li {
+    display: inline;
+}
+
+#about {
+    padding: 0px 10px;
+    border-right-style: solid;
+}
+
+#portfolio {
+    padding: 0px 10px;
+    border-right-style: solid;
+}
+
+#content {
+    padding: 0px 0px 0px 10px;
 }
 
 .main-bio {
