@@ -103,7 +103,7 @@ li {
 .contactcenter {
     margin: auto;
     width: 960px;
-    height: 400px;
+    height: 450px;
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
@@ -133,4 +133,8 @@ h6 {
 
 .maincontact {
     margin: 20px 20px;
+}
+
+input {
+    margin-bottom: 20px;
 }
