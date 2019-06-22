@@ -78,7 +78,7 @@ li {
     padding: 0px 0px 0px 10px;
 }
 
-/* added flex */
+/* added flex ?*/
 .main-bio {
     clear: both;
     margin: auto;
@@ -107,6 +107,15 @@ li {
     background-color: #ffffff;
     border-color: #dddddd;
     border-style: solid;
+}
+
+.portfoliocenter {
+        margin: auto;
+        width: 960px;
+        height: 480px;
+        background-color: #ffffff;
+        border-color: #dddddd;
+        border-style: solid;
 }
 
 h2 {
@@ -138,3 +147,45 @@ h6 {
 input {
     margin-bottom: 20px;
 }
+
+.box-set {
+    position: relative;
+    height: 350px;
+    background: salmon;
+  }
+
+  .box {
+    /* Absolute Position */
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    text-align: center; 
+    background: #1c8796;
+    border: 2px solid rgb(121, 9, 121);
+    
+  }
+
+  .box-1 {
+    top: 0%;
+    left: -2%;
+  }
+  
+  .box-2 {
+    top: 0;
+    left: 32%;
+  }
+  
+  .box-3 {
+    right: -2%;
+    top: 0;
+  }
+  
+  .box-4 {
+    bottom: 0;
+    left: -2%;
+  }
+
+  .box-5 {
+      bottom: 0%;
+      left: 32%;
+  }
